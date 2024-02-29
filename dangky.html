@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-jX0rgv0oAs5JIVXp1QOP4JKJ7O2Bi8SbE0+6MOzqARtHuNDOpBd7a94yRmIXNd4gD+u5nlGz+5UviFvAuzoRbhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/css/login.css">
+    <title>Đăng Ký</title>
+</head>
+
+<body>
+    <div id="register-container">
+        <div id="register-form">
+            <h2>Đăng Ký</h2>
+            <form id="registerForm" onsubmit="return registerUser()">
+
+                <label for="fullname">Họ và tên:</label>
+                <input type="text" id="fullname" name="fullname" required>
+
+                <label for="username">Tên người dùng:</label>
+                <input type="text" id="username" name="username" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="password">Mật khẩu:</label>
+                <input type="password" id="password" name="password" required>
+
+                <label for="confirm-password">Xác nhận mật khẩu:</label>
+                <input type="password" id="confirm-password" name="confirm-password" required>
+
+                <div class="submit">
+                    <button type="button" onclick="registerUser()">Đăng Ký</button>
+                </div>
+            </form>
+            <div class="login-link">
+                <p>Bạn đã có tài khoản? <a href="dangnhap.html">Đăng Nhập</a></p>
+            </div>
+        </div>
+
+        <div id="background-image">
+            <div class="image-slider">
+                <img class="image-slide" src="img/banner3.jpg" alt="Slide 1">
+                <img class="image-slide" src="img/banner4.jpg" alt="Slide 2">
+                <img class="image-slide" src="img/banner7.jpg" alt="Slide 3">
+            </div>
+        </div>
+    </div>
+
+    
+</body>
+<script src="js/slide.js"></script>
+<script src="js/login.js"></script>
+
+
+
+
+</html>

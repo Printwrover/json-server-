@@ -1,0 +1,301 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+.site-header {
+    background-color: #f3f3f3;
+    color: white;
+    padding: 1em;
+    text-align: left;
+    position: relative;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    height: 50px;
+}
+
+.main-nav {
+    background-color: #ff7b00b9;
+    color: white;
+    height: 200%;
+    position: absolute;
+    left: 0;
+    width: 260px;
+    overflow-x: hidden;
+    box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+.main-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.main-nav a {
+    color: white;
+    padding: 2em;
+    text-decoration: none;
+    display: block;
+    transition: 0.3s;
+}
+
+.main-nav a:hover {
+    background-color: #de9863;
+}
+
+.product-section {
+    margin-top: -81px;
+    margin-left: 250px;
+    padding: 2em;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+tr th{
+    text-align: center;
+}
+th,
+td {
+    border: 1px solid #dee2e6;
+    padding: 12px;
+    text-align: center;
+    font-size: 19px;
+
+}
+
+th {
+    background-color: #007bff;
+    color: white;
+}
+
+.btn {
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn-success {
+    background-color: #28a745;
+    color: white;
+    border: none;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+.fa {
+    margin-right: 5px;
+}
+
+.top-right-icons {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.top-right-icons i {
+    padding: 5px;
+    color: rgb(46, 46, 46);
+    font-size: 20px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.user-dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.user-dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    min-width: 160px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.user-dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.user-dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.user-dropdown:hover .user-dropdown-content {
+    display: block;
+}
+
+.product-card {
+    margin-bottom: 20px;
+}
+
+.product-details {
+    padding: 15px;
+}
+
+.product-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f8f9fa;
+}
+.cat-image{
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+    
+} 
+.cat-image img{
+    width: 100px;
+    border-radius: 2px;
+    box-shadow:5px 5px 2px 1px gray ;
+}
+.cat-image .td{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.cat-image .button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    border: none;
+    border-radius: 2px;
+    box-shadow: 1px 1px 6px 1px gray;
+
+}
+button:hover{
+    font-size: 13px;
+    transition: background-color 0.3s, color 0.3s, opacity 0.3s;
+
+}
+button i{
+    font-size: 25px;
+    color: red;
+    transition: background-color 0.3s, color 0.3s, opacity 0.3s;
+
+
+}
+button i:hover{
+    transition: background-color 0.3s, color 0.3s, opacity 0.3s;
+    font-size: 20px;
+    color: rgb(184, 0, 0);
+}
+.newproduct{
+ float: right;
+ padding: 2px;
+ margin: 0px;
+ margin-bottom: 10px;
+ background-color: hwb(136 11% 32% / 0.632);
+ color: white;
+ height: 40px;
+ width: 15%;
+ border-radius: 3px;
+ transition: background-color 0.3s, color 0.3s, opacity 0.3s;
+ border: none;
+position: relative;
+
+ }
+ .newproduct:hover{
+    background-color:  hwb(136 9% 46% / 0.632) ;
+    font-size: 15px;
+    transition: background-color 0.3s, color 0.3s, opacity 0.3s;
+    position: relative;
+ }
+ .table th, .table td {
+    padding: 0.75rem;
+    vertical-align: baseline;
+    border-top: 1px solid #dee2e6;
+}
+.logo{
+    padding: 3px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+}
+
+/* admin2 */
+
+#editProductForm {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    z-index: 999;
+}
+
+/* Thêm CSS cho overlay (phủ đen) */
+#overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 998;
+}
+#editProductForm {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#editProductForm h3 {
+    text-align: center;
+}
+
+#editProductForm label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+#editProductForm input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+#editProductForm button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-right: 10px;
+}
+
+#editProductForm button:hover {
+    background-color: #45a049;
+}

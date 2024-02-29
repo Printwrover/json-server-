@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/login.css">
+    <title>Đăng Nhập</title>
+</head>
+
+<body>
+    <div id="login-container">
+        <div id="login-form">
+            <h2>Đăng Nhập</h2>
+            <form id="loginForm">
+                <label for="username">Tên người dùng:</label>
+                <input type="text" id="username" name="username" required autocomplete="username">
+
+                <label for="password">Mật khẩu:</label>
+                <input type="password" id="password" name="password" required autocomplete="current-password">
+
+                <a class="quenmk" href="quenmatkhau.html">Quên mật khẩu</a>
+
+                <div class="submit">
+                    <button type="button" onclick="login()">Đăng Nhập</button>
+                    <a href="dangky.html"><button type="button">Đăng Ký</button></a>
+                </div>
+            </form>
+        </div>
+        <div id="background-image">
+            <div class="image-slider">
+                <img class="image-slide" src="img/banner3.jpg" alt="Slide 1">
+                <img class="image-slide" src="img/banner4.jpg" alt="Slide 2">
+                <img class="image-slide" src="img/banner7.jpg" alt="Slide 3">
+            </div>
+        </div>
+    </div>
+</body>
+<script src="/js/slide.js"></script>
+<script src="/js/login.js"></script>
+</html>

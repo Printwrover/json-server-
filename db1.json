@@ -1,0 +1,862 @@
+{
+  "users": [
+    {
+      "id": "a4eb",
+      "fullname": "nguyên bảo",
+      "username": "bảo bảo",
+      "email": "chibaonguyen1605@gmail.com",
+      "password": "123"
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "name": "Coffe fin",
+      "image": "/image/caphe3.jpg",
+      "quantity": 38
+    },
+    {
+      "id": "2",
+      "name": "Nước trái cây",
+      "image": "/image/caphe4.jpg",
+      "quantity": 50
+    },
+    {
+      "id": "3",
+      "name": "Nước trái cây thiên nhiên",
+      "image": "/image/caphe2.jpg",
+      "quantity": 200
+    },
+    {
+      "id": "4",
+      "name": "Coffe",
+      "image": "/image/caphe.jpg",
+      "quantity": 20
+    },
+    {
+      "id": "5",
+      "name": "Coffe Hình",
+      "image": "/image/kem4.jpg",
+      "quantity": 50
+    },
+    {
+      "id": "6",
+      "name": "Kem Tươi",
+      "image": "/image/caphe5.jpg",
+      "quantity": 50
+    },
+    {
+      "id": "7",
+      "name": "Coffe",
+      "image": "/image/caphe6.jpg",
+      "quantity": 50
+    },
+    {
+      "id": "8",
+      "name": "Kem coffe",
+      "image": "/image/caphe7.jpg",
+      "quantity": 50
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "name": "ÁO CARO",
+      "detail": "Black coffe",
+      "image": "/image/caffe3.jpg",
+      "price": 1500000,
+      "quantity": 3332,
+      "idpro": 1,
+      "size": [
+        "S",
+        "M",
+        "L"
+      ],
+      "color": [
+        "Black",
+        "White",
+        "Red"
+      ]
+    },
+    {
+      "id": "2",
+      "name": "ÁO KHOÁC NAM",
+      "detail": "Black coffe",
+      "image": "/image/caffe4.jpg",
+      "price": 1500000,
+      "quantity": 200,
+      "idpro": 1,
+      "size": [
+        "S",
+        "M",
+        "L"
+      ],
+      "color": [
+        "Black",
+        "White",
+        "Red"
+      ]
+    },
+    {
+      "id": "3",
+      "name": "ÁO KHOÁC NAM",
+      "detail": "Black coffe",
+      "image": "/image/caffe5.jpg",
+      "price": 1500000,
+      "quantity": 200,
+      "idpro": 1,
+      "size": [
+        "S",
+        "M",
+        "L"
+      ],
+      "color": [
+        "Black",
+        "White",
+        "Red"
+      ]
+    },
+    {
+      "id": "4",
+      "name": "ÁO KHOÁC NAM",
+      "detail": "Black coffe",
+      "image": "/image/caffe6.jpg",
+      "price": 1500000,
+      "quantity": 200,
+      "idpro": 1,
+      "size": [
+        "S",
+        "M",
+        "L"
+      ],
+      "color": [
+        "Black",
+        "White",
+        "Red"
+      ]
+    },
+    {
+      "id": "5",
+      "name": "ÁO KHOÁC NAM",
+      "detail": "Black coffe",
+      "image": "/image/caffehinh.jpg",
+      "price": 1500000,
+      "quantity": 200,
+      "idpro": 2,
+      "size": [
+        "S",
+        "M",
+        "L"
+      ],
+      "color": [
+        "Black",
+        "White",
+        "Red"
+      ]
+    },
+    {
+      "id": "6",
+      "name": "ÁO KHOÁC CARO",
+      "detail": "Đồ biến thân màu trắng (sau này là màu Magenta (Hồng pha Đỏ) của thằng ăn chực)",
+      "image": "/image/caffehinh1.jpg",
+      "price": 1500000,
+      "quantity": 200,
+      "idpro": 2,
+      "size": [
+        "S",
+        "M",
+        "L"
+      ],
+      "color": [
+        "Black",
+        "White",
+        "Red"
+      ]
+    },
+    {
+      "id": "7",
+      "name": "Survive Buster",
+      "cate_id": 2,
+      "detail": "Nói chung là nó đẹp",
+      "image": "/image/caffehinh3.jpg",
+      "price": 750000,
+      "quantity": 200,
+      "idpro": 2,
+      "size": [
+        "S",
+        "M",
+        "L"
+      ],
+      "color": [
+        "Black",
+        "White",
+        "Red"
+      ]
+    },
+    {
+      "id": "8",
+      "name": "D-Magnum",
+      "detail": "Giá rẻ nè mua đi",
+      "image": "/image/caffehinh4.jpg",
+      "price": 1500000,
+      "quantity": 200,
+      "idpro": 2,
+      "size": [
+        "S",
+        "M",
+        "L"
+      ],
+      "color": [
+        "Black",
+        "White",
+        "Red"
+      ]
+    },
+    {
+      "id": "9",
+      "name": "D-kirito",
+      "detail": "Giá rẻ nè mua đi",
+      "image": "/image/caphemay.jpg",
+      "price": 1500000,
+      "quantity": 143,
+      "idpro": 3,
+      "size": [
+        "S",
+        "M",
+        "L"
+      ],
+      "color": [
+        "Black",
+        "White",
+        "Red"
+      ]
+    },
+    {
+      "id": "10",
+      "name": "D-Magnum",
+      "detail": "Giá rẻ nè mua đi",
+      "image": "/image/caphemay1.jpg",
+      "price": 1500000,
+      "quantity": 200,
+      "idpro": 3,
+      "size": [
+        "S",
+        "M",
+        "L"
+      ],
+      "color": [
+        "Black",
+        "White",
+        "Red"
+      ]
+    },
+    {
+      "id": "11",
+      "name": "D-Magnum",
+      "detail": "Giá rẻ nè mua đi",
+      "image": "/image/caphemay2.jpg",
+      "price": 1500000,
+      "quantity": 200,
+      "idpro": 3,
+      "size": [
+        "S",
+        "M",
+        "L"
+      ],
+      "color": [
+        "Black",
+        "White",
+        "Red"
+      ]
+    },
+    {
+      "id": "12",
+      "name": "D-Magnum",
+      "detail": "Giá rẻ nè mua đi",
+      "image": "/image/caphemay3.jpg",
+      "price": 1500000,
+      "quantity": 200,
+      "idpro": 3,
+      "size": [
+        "S",
+        "M",
+        "L"
+      ],
+      "color": [
+        "Black",
+        "White",
+        "Red"
+      ]
+    },
+    {
+      "id": "13",
+      "name": "D-Magnum",
+      "detail": "Giá rẻ nè mua đi",
+      "image": "/image/banh.jpg",
+      "price": 1500000,
+      "quantity": 200,
+      "idpro": 3,
+      "size": [
+        "S",
+        "M",
+        "L"
+      ],
+      "color": [
+        "Black",
+        "White",
+        "Red"
+      ]
+    },
+    {
+      "id": "14",
+      "name": "D-Magnum",
+      "detail": "Giá rẻ nè mua đi",
+      "image": "/image/banh1.jpg",
+      "price": 1500000,
+      "quantity": 200,
+      "idpro": 3,
+      "size": [
+        "S",
+        "M",
+        "L"
+      ],
+      "color": [
+        "Black",
+        "White",
+        "Red"
+      ]
+    },
+    {
+      "id": "15",
+      "name": "D-Magnum",
+      "detail": "Giá rẻ nè mua đi",
+      "image": "/image/banh2.jpg",
+      "price": 1500000,
+      "quantity": 200,
+      "idpro": 3,
+      "size": [
+        "S",
+        "M",
+        "L"
+      ],
+      "color": [
+        "Black",
+        "White",
+        "Red"
+      ]
+    },
+    {
+      "id": "16",
+      "name": "D-Magnum",
+      "detail": "Giá rẻ nè mua đi",
+      "image": "/image/banh3.jpg",
+      "price": 1500000,
+      "quantity": 200,
+      "idpro": 4,
+      "size": [
+        "S",
+        "M",
+        "L"
+      ],
+      "color": [
+        "Black",
+        "White",
+        "Red"
+      ]
+    },
+    {
+      "id": "17",
+      "name": "D-Magnum",
+      "detail": "Giá rẻ nè mua đi",
+      "image": "/image/kem.jpg",
+      "price": 1500000,
+      "quantity": 200,
+      "idpro": 4,
+      "size": [
+        "S",
+        "M",
+        "L"
+      ],
+      "color": [
+        "Black",
+        "White",
+        "Red"
+      ]
+    },
+    {
+      "id": "18",
+      "name": "Kem",
+      "image": "/image/kem1.jpg",
+      "price": 1500000,
+      "quantity": 200
+    },
+    {
+      "id": "18",
+      "name": "D-Magnum",
+      "detail": "Giá rẻ nè mua đi",
+      "image": "/image/kem2.jpg",
+      "price": 1500000,
+      "quantity": 200,
+      "idpro": 4,
+      "size": [
+        "S",
+        "M",
+        "L"
+      ],
+      "color": [
+        "Black",
+        "White",
+        "Red"
+      ]
+    },
+    {
+      "id": "18",
+      "name": "Kem",
+      "detail": "Giá rẻ nè mua đi",
+      "image": "/image/kem3.jpg",
+      "price": 1500000,
+      "quantity": 200,
+      "idpro": 4,
+      "size": [
+        "S",
+        "M",
+        "L"
+      ],
+      "color": [
+        "Black",
+        "White",
+        "Red"
+      ]
+    }
+  ],
+  "products2": [
+    {
+      "id": "1",
+      "name": "SP License",
+      "detail": "Muốn ảo cảnh sát đặc nhiệm? Mua SP License ngay thôi",
+      "image": "/image/aokhoac1.jpg",
+      "price": 2000000,
+      "quantity": 200,
+      "size": [
+        "S",
+        "M",
+        "L"
+      ],
+      "color": [
+        "Black",
+        "White",
+        "Red"
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Zero One Driver",
+      "detail": "Black coffe",
+      "image": "/image/aokhoac2.jpg",
+      "price": 1500000,
+      "quantity": 200,
+      "size": [
+        "S",
+        "M",
+        "L"
+      ],
+      "color": [
+        "Black",
+        "White",
+        "Red"
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Decade Driver",
+      "detail": "Đồ biến thân màu trắng (sau này là màu Magenta (Hồng pha Đỏ) của thằng ăn chực)",
+      "image": "/image/aokhoac3.jpg",
+      "price": 1500000,
+      "quantity": 200,
+      "size": [
+        "S",
+        "M",
+        "L"
+      ],
+      "color": [
+        "Black",
+        "White",
+        "Red"
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Bouken Accellular",
+      "detail": "Có cái bánh xe lăn được nhìn chất vãi",
+      "image": "/image/aokhoac4.jpg",
+      "price": 900000,
+      "quantity": 200,
+      "size": [
+        "S",
+        "M",
+        "L"
+      ],
+      "color": [
+        "Black",
+        "White",
+        "Red"
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Survive Buster",
+      "cate_id": 2,
+      "detail": "Nói chung là nó đẹp",
+      "image": "/image/aokhoac5.jpg",
+      "price": 750000,
+      "quantity": 200,
+      "size": [
+        "S",
+        "M",
+        "L"
+      ],
+      "color": [
+        "Black",
+        "White",
+        "Red"
+      ]
+    },
+    {
+      "id": "6",
+      "name": "D-Magnum",
+      "detail": "Giá rẻ nè mua đi",
+      "image": "/image/aokhoac6.jpg",
+      "price": 1500000,
+      "quantity": 200,
+      "size": [
+        "S",
+        "M",
+        "L"
+      ],
+      "color": [
+        "Black",
+        "White",
+        "Red"
+      ]
+    },
+    {
+      "id": "7",
+      "name": "D-Magnum",
+      "detail": "Giá rẻ nè mua đi",
+      "image": "/image/aokhoac7.jpg",
+      "price": 1500000,
+      "quantity": 200,
+      "size": [
+        "S",
+        "M",
+        "L"
+      ],
+      "color": [
+        "Black",
+        "White",
+        "Red"
+      ]
+    },
+    {
+      "id": "8",
+      "name": "D-Magnum",
+      "detail": "Giá rẻ nè mua đi",
+      "image": "/image/aokhoac8.jpg",
+      "price": 1500000,
+      "quantity": 200,
+      "size": [
+        "S",
+        "M",
+        "L"
+      ],
+      "color": [
+        "Black",
+        "White",
+        "Red"
+      ]
+    },
+    {
+      "id": "9",
+      "name": "D-Magnum",
+      "detail": "Giá rẻ nè mua đi",
+      "image": "/image/giay1.jpg",
+      "price": 1500000,
+      "quantity": 200,
+      "size": [
+        "S",
+        "M",
+        "L"
+      ],
+      "color": [
+        "Black",
+        "White",
+        "Red"
+      ]
+    },
+    {
+      "id": "10",
+      "name": "D-Magnum",
+      "detail": "Giá rẻ nè mua đi",
+      "image": "/image/giay2.jpg",
+      "price": 1500000,
+      "quantity": 200,
+      "size": [
+        "S",
+        "M",
+        "L"
+      ],
+      "color": [
+        "Black",
+        "White",
+        "Red"
+      ]
+    },
+    {
+      "id": "11",
+      "name": "D-Magnum",
+      "detail": "Giá rẻ nè mua đi",
+      "image": "/image/giay3.jpg",
+      "price": 1500000,
+      "quantity": 200,
+      "size": [
+        "S",
+        "M",
+        "L"
+      ],
+      "color": [
+        "Black",
+        "White",
+        "Red"
+      ]
+    },
+    {
+      "id": "12",
+      "name": "D-Magnum",
+      "detail": "Giá rẻ nè mua đi",
+      "image": "/image/giay4.jpg",
+      "price": 1500000,
+      "quantity": 200,
+      "size": [
+        "S",
+        "M",
+        "L"
+      ],
+      "color": [
+        "Black",
+        "White",
+        "Red"
+      ]
+    },
+    {
+      "id": "13",
+      "name": "D-Magnum",
+      "detail": "Giá rẻ nè mua đi",
+      "image": "/image/giay5.jpg",
+      "price": 1500000,
+      "quantity": 200,
+      "size": [
+        "S",
+        "M",
+        "L"
+      ],
+      "color": [
+        "Black",
+        "White",
+        "Red"
+      ]
+    },
+    {
+      "id": "14",
+      "name": "D-Magnum",
+      "detail": "Giá rẻ nè mua đi",
+      "image": "/image/giay6.jpg",
+      "price": 1500000,
+      "quantity": 200,
+      "size": [
+        "S",
+        "M",
+        "L"
+      ],
+      "color": [
+        "Black",
+        "White",
+        "Red"
+      ]
+    },
+    {
+      "id": "15",
+      "name": "D-Magnum",
+      "detail": "Giá rẻ nè mua đi",
+      "image": "/image/giay7.jpg",
+      "price": 1500000,
+      "quantity": 200,
+      "size": [
+        "S",
+        "M",
+        "L"
+      ],
+      "color": [
+        "Black",
+        "White",
+        "Red"
+      ]
+    },
+    {
+      "id": "16",
+      "name": "D-Magnum",
+      "detail": "Giá rẻ nè mua đi",
+      "image": "/image/giay8.jpg",
+      "price": 1500000,
+      "quantity": 200,
+      "size": [
+        "S",
+        "M",
+        "L"
+      ],
+      "color": [
+        "Black",
+        "White",
+        "Red"
+      ]
+    },
+    {
+      "id": "17",
+      "name": "D-Magnum",
+      "detail": "Giá rẻ nè mua đi",
+      "image": "/image/giay9.jpg",
+      "price": 1500000,
+      "quantity": 200,
+      "size": [
+        "S",
+        "M",
+        "L"
+      ],
+      "color": [
+        "Black",
+        "White",
+        "Red"
+      ]
+    }
+  ],
+  "cart": [
+    {
+      "product_id": 1,
+      "quantity": 2,
+      "size": "M",
+      "color": "Red",
+      "id": "5a80"
+    }
+  ],
+  "orders": [
+    {
+      "id": "1",
+      "customer_name": "Người Mua Hàng",
+      "customer_address": "Địa chỉ mua hàng",
+      "customer_email": "email@example.com",
+      "customer_phone_number": "0123456789",
+      "created_date": "2024-01-22",
+      "status": "Chờ xử lý "
+    },
+    {
+      "id": "2",
+      "customer_name": "Chí Bảo Nguyễn",
+      "customer_address": "423/434 hà thị khiêm quận 12 , Hồ chí minh",
+      "customer_email": "chibaonguyen1605@gmail.com",
+      "customer_phone_number": "0868428250",
+      "created_date": "2024-01-31",
+      "status": "Chờ xử lý "
+    },
+    {
+      "id": "3",
+      "customer_name": "Chí Bảo Nguyễn",
+      "customer_address": "423/434 hà thị khiêm quận 12 , Hồ chí minh",
+      "customer_email": "chibaonguyen1605@gmail.com",
+      "customer_phone_number": "0868428250",
+      "created_date": "2024-01-31",
+      "status": "Chờ xử lý"
+    },
+    {
+      "id": "4",
+      "customer_name": "quỳnh quỳnh như",
+      "customer_address": "423/434 hà thị khiêm quận 12 , Hồ chí minh",
+      "customer_email": "quynhnhu1508@gmail.com",
+      "customer_phone_number": "0868428250",
+      "created_date": "2024-02-29",
+      "status": "Chờ xử lý"
+    }
+  ],
+  "order_details": [
+    {
+      "order_id": 1,
+      "product_id": 1,
+      "quantity": 1,
+      "unit_price": 1000000,
+      "id": "14a1"
+    },
+    {
+      "id": "61c4",
+      "order_id": "f051",
+      "product_id": 11,
+      "quantity": 1,
+      "unit_price": 1500000
+    },
+    {
+      "id": "806e",
+      "order_id": "f051",
+      "product_id": 2,
+      "quantity": 1,
+      "unit_price": 1500000
+    },
+    {
+      "id": "b726",
+      "order_id": "5856",
+      "product_id": 7,
+      "quantity": 4,
+      "unit_price": 1500000
+    },
+    {
+      "id": "857d",
+      "order_id": "5856",
+      "product_id": 2,
+      "quantity": 1,
+      "unit_price": 1500000
+    },
+    {
+      "id": "ec11",
+      "order_id": "1411",
+      "product_id": 2,
+      "quantity": 3,
+      "unit_price": 1500000
+    },
+    {
+      "id": "7ad8",
+      "order_id": "1411",
+      "product_id": 14,
+      "quantity": 1,
+      "unit_price": 1500000
+    },
+    {
+      "id": "3e2a",
+      "order_id": "efed",
+      "product_id": 2,
+      "quantity": 3,
+      "unit_price": 1500000
+    },
+    {
+      "id": "dd30",
+      "order_id": "251c",
+      "product_id": 3,
+      "quantity": 1,
+      "unit_price": 1500000
+    }
+  ],
+  "order_admin": [
+    {
+      "order_id": 1,
+      "product_id": 1,
+      "quantity": 1,
+      "unit_price": 1000000,
+      "id": "0778"
+    }
+  ]
+}
